@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background: ;
+}
+
+
+.logo {
+    text-align: center;
+}
+
+
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding-left: 1rem;
+    text-decoration: none;
+}
