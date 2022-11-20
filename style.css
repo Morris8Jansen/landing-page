@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/* this is the navbar/header */
 header {
     display: flex;
     justify-content: space-around;
@@ -31,4 +33,43 @@ header h1 {
     padding-left: 1rem;
     text-decoration: none;
     color: white;
+}
+
+/* this is the hero */
+
+.hero {
+    background-color: #1f2937;
+    height: 450px;
+    width: 100%;
+}
+
+.hero, h2, p {
+    color: white;
+    padding-left: 100px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+
+}
+
+.hero img {
+    object-position: 50% 50%;
+    padding-left: 50%;
+}
+
+.hero button {
+    margin-left: 100px;
+    border-radius: 20%;
+    font-size: 25px;
+    background-color: #3882f6;
+    color: white;
+    box-shadow: none;
+    border: 3px solid #3882f6;
+    margin: 0 15px;
 }
