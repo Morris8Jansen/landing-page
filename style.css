@@ -7,7 +7,11 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 1rem 2rem;
-    background: ;
+    background-color: #1f2937;
+}
+
+header h1 {
+    color: white;
 }
 
 
@@ -20,10 +24,11 @@ header {
 .nav__links {
     display: flex;
     list-style: none;
-    text-decoration: none;
+    align-items: center;
 }
 
-.nav__links li {
+.nav__links li a{
     padding-left: 1rem;
     text-decoration: none;
+    color: white;
 }
