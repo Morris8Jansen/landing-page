@@ -14,6 +14,7 @@ header {
 
 header h1 {
     color: white;
+    font-size: 24px;
 }
 
 
@@ -49,12 +50,12 @@ header h1 {
 }
 
 .hero h2 {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
@@ -71,5 +72,35 @@ header h1 {
     color: white;
     box-shadow: none;
     border: 3px solid #3882f6;
-    margin: 0 15px;
+    
+}
+
+/* this is the info section */
+
+.info-header {
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.gallerie {
+    margin-left: 375px;
+}
+
+
+.gallerie li {
+    width: 500px;
+    display: inline-block;
+   
+}
+
+.gallerie p {
+    color: grey;
+    font-size: 18px;
+    margin-right: 100px;
+}
+
+.gallerie img {
+   margin-left: 120px;
+    border: 1px solid #3882f6;
 }
